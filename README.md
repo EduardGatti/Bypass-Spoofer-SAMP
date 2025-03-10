@@ -62,6 +62,63 @@ Este script é destinado a usuários avançados que desejam limpar dados e liber
 | 15    | Reiniciar o explorer.exe |
 | 0     | Sair e apagar o script |
 
+# Spoofer (Manipulação de Rede)
+
+## Descrição
+
+O **Spoofer** é uma parte do script que oferece funcionalidades avançadas de manipulação de rede, permitindo que o usuário altere configurações como proxy, obtenha um novo IP, libere e renove o endereço IP, e outras operações úteis para controlar a rede do sistema Windows.
+
+## Funcionalidades
+
+- **Proxy IP**: Configura o sistema para usar um proxy local (127.0.0.1:8080).
+- **Novo IP**: Renova o endereço IP da interface de rede atual, liberando e renovando a configuração de rede.
+- **DHCP**: Configura a interface de rede para usar DHCP, permitindo que o IP seja obtido automaticamente.
+- **Rede Info**: Exibe informações detalhadas sobre a rede, como IP, máscara de sub-rede, gateway, etc.
+- **Flush DNS**: Limpa o cache DNS do sistema, forçando a atualização dos registros DNS.
+
+## Instruções de Uso
+
+1. **Menu de Operações**:
+   - Após o login e a autenticação com o código OTP, o script exibe um menu de opções para manipulação de rede. As opções disponíveis são:
+     - **1**: Configurar Proxy IP
+     - **2**: Renovar IP
+     - **3**: Ativar DHCP
+     - **4**: Exibir Informações de Rede
+     - **5**: Limpar Cache DNS
+     - **0**: Sair do Script
+
+2. **Configurações de Proxy IP**:
+   - Ao selecionar a opção **1**, o script configura o sistema para usar o proxy local `127.0.0.1:8080`.
+
+3. **Renovação de IP**:
+   - Ao selecionar a opção **2**, o script libera e renova o IP da interface de rede atual.
+
+4. **Ativar DHCP**:
+   - Ao selecionar a opção **3**, o script configura a interface de rede para obter um IP automaticamente via DHCP.
+
+5. **Exibir Informações de Rede**:
+   - A opção **4** exibe informações detalhadas sobre o estado atual da rede, incluindo o endereço IP, gateway, máscara de sub-rede, etc.
+
+6. **Limpar Cache DNS**:
+   - A opção **5** limpa o cache DNS do sistema, o que pode ser útil para resolver problemas de conexão e forçar o sistema a buscar novos registros DNS.
+
+## Exemplo de Uso
+
+1. **Escolha de Comando**:
+   - Após a autenticação, o script exibe um menu. O usuário pode escolher uma das opções para manipulação de rede.
+
+2. **Renovação de IP**:
+   - Se você deseja renovar o IP, basta selecionar a opção **2**. O script liberará e renovará o IP automaticamente.
+
+3. **Configuração de Proxy**:
+   - Se você deseja configurar um proxy, selecione a opção **1**. O script configurará o proxy local no sistema para `127.0.0.1:8080`.
+
+## Observações Importantes
+
+- **Permissões**: O script exige permissões de **Administrador** para modificar configurações de rede e enviar comandos de sistema.
+- **Uso Responsável**: Certifique-se de usar o script de maneira ética e responsável, especialmente ao realizar alterações de rede como configuração de proxy ou renovação de IP.
+
+
 ## Como Contribuir
 
 Este repositório foi criado para fins educacionais e para aqueles que desejam automatizar a limpeza do sistema Windows. Se você encontrar melhorias ou quiser adicionar mais funcionalidades, sinta-se à vontade para criar um **pull request** com suas sugestões.
